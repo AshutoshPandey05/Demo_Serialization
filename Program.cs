@@ -27,12 +27,12 @@ namespace Demo_Serialization
         {
             var weatherForecast = new WeatherForecast
             {
-                Date = DateTime.Parse("2019-08-01"),
-                TemperatureCelsius = 25,
+                Date = DateTime.Parse("2021-10-13"),
+                TemperatureCelsius = 35,
                 Summary = "Hot",
                 SummaryField = "Hot",
                 DatesAvailable = new List<DateTimeOffset>()
-                    { DateTime.Parse("2019-08-01"), DateTime.Parse("2019-08-02") },
+                    { DateTime.Parse("2021-10-13"), DateTime.Parse("2021-10-14") },
                 TemperatureRanges = new Dictionary<string, HighLowTemps>
                 {
                     ["Cold"] = new HighLowTemps { High = 20, Low = -10 },
